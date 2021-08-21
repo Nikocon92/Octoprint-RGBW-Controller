@@ -4,33 +4,33 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "gpiorgbcontroller"
+plugin_identifier = "RGBWcontroller"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_gpiorgbcontroller"
+plugin_package = "RGBWcontroller"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "GPIO RGB Controller"
+plugin_name = "RGBW controller"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "0.3.3"
+plugin_version = "1.0.0"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """Uses PI GPIO to control an external RGB LED strip"""
+plugin_description = """Uses PI GPIO to control an external RGBW LED strip"""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Erik Gundersen"
+plugin_author = "Nick C"
 
 # The plugin's author's mail address.
-plugin_author_email = "z4gunn@gmail.com"
+plugin_author_email = "n/a"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/z4gunn/OctoPrint-GpioRgbController"
+plugin_url = "https://github.com/Nikocon92/Octoprint-RGBW-Controller"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
-plugin_license = "AGPLv3"
+plugin_license = "TBC"
 
 # Any additional requirements besides OctoPrint should be listed here
 plugin_requires = ["gpiozero>=1.5.1", "RPi.GPIO>=0.7.0"]
